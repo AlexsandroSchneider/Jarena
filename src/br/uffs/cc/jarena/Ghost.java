@@ -43,7 +43,7 @@ public class Ghost extends Agente
 					} else if (probab <= 0.075 && probab > 0.015){
 						if (getX() < Constants.LARGURA_MAPA/2) {
 							if (getY() < Constants.ALTURA_MAPA/2) {
-								setDirecao(aleat > 0.5 ? DIREITA : BAIXO);o
+								setDirecao(aleat > 0.5 ? DIREITA : BAIXO);
 							} else setDirecao(aleat > 0.5 ? DIREITA : CIMA);
 						} else if (getY() < Constants.ALTURA_MAPA/2) {
 							setDirecao(aleat > 0.5 ? ESQUERDA : BAIXO);
